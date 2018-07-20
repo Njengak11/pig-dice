@@ -1,5 +1,10 @@
 body{
+    background-color: black;
+    color: aliceblue;
+}
 
+.header{
+    text-align: center;
 }
 
 label{
@@ -16,9 +21,27 @@ h4{
 }
 
 #roll-dice-btn1{
-    margin-top: 50%;
+    margin-top: 25%;
 }
 
 #roll-dice-btn2{
-    margin-top: 50%;
+    margin-top: 25%;
 }
+
+.playername-container{
+    width: 700px;
+    margin-top: 15%;
+}
+
+.game-container{
+    margin-bottom: 15%;
+}
+
+#p1{
+    background-color: blue;
+}
+
+#p2{
+    background-color: red;
+}
+
