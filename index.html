@@ -25,16 +25,29 @@
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Player One</h1>
+        <form id="playername">
+            <div class="form-group">
+                <label for="player-1">Enter Player1 Name</label>
+                <input type="text" id="player1name" class="form-control player-1">
                 </div>
+                <label for="player-2">Enter Player2 Name</label>
+                <input type="text" id="player2name" class="form-control player-2">
+                <button type="button" id="play" name="button">Play Game</button>
+            </form>
+        </div>
 
+        <div class="container">
+            <div class="row">
                 <div class="col-md-6">
-                    <h1>Player Two</h1>
+                    <h3>Player 1<span id="gameStartplayer1Name"></span></h3>
+                    Total score: <span id="stats-player-1-total-score"></span>
                     </div>
-                </div>
-                </div>
+
+                    <button id="roll-dice-btn1" type="button" name="button">Roll Dice</button>
+                    <button id="hold-btn1" type="button" name="button">Hold</button>
+                    </div>
+                    
+        
 
 
 
