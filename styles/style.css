@@ -41,7 +41,46 @@ position: relative;
         overflow: hidden; 
     }
 
+.rules-panel{
+    line-height: 30px;
+}
+
+.player-0-panel,
+.player-1-panel{
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+}
+
+/* players */
+
+.player-name {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .player-score-0 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #eb4d4d;
+    margin-bottom: 130px;
+  }
+  
+  .player-score-1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #2ecc71;
+    margin-bottom: 130px;
+  }
+  
 
 
-
-    
