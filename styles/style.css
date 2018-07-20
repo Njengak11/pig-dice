@@ -7,5 +7,41 @@
 .clearfix::after{
     content: "";
     display: table;
-    
+    clear: both;
 }
+
+body {
+    background: blue;
+    background: -webkit-linear-gradient(
+        to right,
+        #ffafbd,
+        #c9ffbf
+        );
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 300;
+position: relative;
+  height: 100vh;
+  color: #555;
+    }
+
+    h3,
+    p,
+    li{
+        text-transform: uppercase;
+    }
+
+    .wrapper{
+        width: 1000px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+        overflow: hidden; 
+    }
+
+
+
+
+    
