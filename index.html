@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PIG DICE</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js" charset="utf-8"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="header">
         <h1>PIG DICE</h1>
     </div>
-    <div class="rules">
-        <h4>The Rules</h4>
-        <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
-        <ol>
-            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
-            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-            <li> If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
-        </ol>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="header">
-                <h2>Player One</h2>
-            </div>
-        </div>
-    </div>
+   <div class="wrapper clearfix">
+       <div class="player-0-panel active-0">
+           <div class="game-panel">
+               <div class="player-name" id="name-0">Player 1</div>
+               <div class="player-score-0" id="score-0">43</div>
+               <div class="player-0-rolled-1"><h3>Sorry! you rolled 1</h3>
+                </div>
+                <div class="player-current-box-0">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="currenr-0">11</div>
+                    <div class="rules-panel" style="display:none">
+                        <h3>Goal</h3>
+                        <p>Be the first player to reach 50 points</p>
+                    </div>
+                </div>
 
         </body>
 </html>
