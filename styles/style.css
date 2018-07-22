@@ -9,7 +9,7 @@ body{
 
 label{
     color: aqua;
-    font-size: 50px;
+    font-size: 15px;
 }
 
 h4{
@@ -18,14 +18,6 @@ h4{
 
 .rules{
     text-align: center;
-}
-
-#roll-dice-btn1{
-    margin-top: 25%;
-}
-
-#roll-dice-btn2{
-    margin-top: 25%;
 }
 
 .playername-container{
@@ -37,11 +29,7 @@ h4{
     margin-bottom: 15%;
 }
 
-#p1{
-    background-color: blue;
-}
-
-#p2{
-    background-color: red;
+.jumbotron{
+    background: transparent;
 }
 
