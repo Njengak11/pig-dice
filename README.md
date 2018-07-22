@@ -2,19 +2,20 @@
 #PIG DICE WEB APPLICATION
 This is a two player game where two people roll a dice and try to accumilate points the first person to 50 wins
 
-#SETUP REQUIREMENTS
+# SETUP REQUIREMENTS
+
 Browser
 
-#TECHNOLOGIES USED
+# TECHNOLOGIES USED
 html
 css
 javascript
 jquery
 
-#AUTHORS
+# AUTHORS
 Njenga Karori for any questions email me at njenga.k11@gmail.com
 
-#LICENSE
+# LICENSE
 
 *MIT License
 
